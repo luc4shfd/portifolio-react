@@ -5,9 +5,11 @@ import '/src/components/global.css'
 export default function Header() {
     return (
         <div className="header">
-            <a href="">Home</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
+           <nav>
+                <a href="">Home</a>
+                <a href="">Projetos</a>
+                <a href="">Sobre</a>
+           </nav>
             
         </div>
     )
